@@ -1,0 +1,18 @@
+.search {
+  padding-top: 120px;
+  max-width: 580px;
+  margin: 0 auto 120px;
+}
+
+.error {
+  margin-bottom: 30px;
+}
+
+.search__input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid dodgerblue;
+  border-radius: 8px;
+  margin-bottom: 5px;
+
+}

@@ -1,0 +1,46 @@
+.search__list {
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.search__item {
+  display: flex;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid rgb(55, 155, 255);
+  padding: 8px;
+  background-color: rgba(242, 242, 242, 0.555);
+  align-items: center;
+}
+
+.search__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.search__img {
+  max-width: 58px;
+  max-height: 58px;
+  object-fit: contain;
+  width: 100%;
+  margin-right: 15px;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.search__name {
+  font-weight: 700;
+}
+
+.search__repo {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.search__repo span {
+  font-weight: 700;
+  font-size: 22px;
+  margin-left: 10px;
+  color: rgb(55, 155, 255);
+}
