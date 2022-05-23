@@ -1,5 +1,10 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 
+type UserData = {
+  avatar_url: string;
+  bio: string
+};
+
 interface UserState {
   userRepos: any;
   userData: any;
