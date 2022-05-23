@@ -6,7 +6,6 @@ function SearchInput() {
   const [value, newValue] = useState("");
   const dispatch = useAppDispatch();
   const { data } = useAppSelector((state) => state.data);
-  console.log(data);
 
   useEffect(() => {
     if (value.length > 1) {
